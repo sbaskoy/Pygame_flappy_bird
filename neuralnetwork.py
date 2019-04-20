@@ -54,7 +54,7 @@ class Yapay_Sinir_Ağı():
                 a=random.random()
                 cıkış_agırlık.append(a)
             return ara_agırlık,cıkış_agırlık   
-        """Yanlış Düzelt"""
+
         def ara_katman_cıkışları(self):           
                 matris=Matrix(len(self.gizli_katman),len(self.inputs)).oluştur()
                 cıkışlar=[]
@@ -141,6 +141,6 @@ class Yapay_Sinir_Ağı():
                 yazıcı.writerow([self.giriş_yeni_agırlıklar()])
              
             
-ali=Yapay_Sinir_Ağı([0,0,0],[0,0,0],[0])
-print(ali.cıkış_katman)
+Ysa=Yapay_Sinir_Ağı([0,0,0],[0,0,0],[0])
+print(Ysa.cıkış_katman)
                 
